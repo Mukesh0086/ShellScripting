@@ -37,6 +37,13 @@ do
 	echo "player won"
 	break
    fi
+   if [ "$stake" -eq 0 ]
+   then
+	echo "Player lost"
+	break
+   fi 
+ 
+   turns=`expr "$turns" - 1`
 
 done
 
