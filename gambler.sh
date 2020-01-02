@@ -32,5 +32,11 @@ do
         win=$((win + 1))
    fi 
 
+   if [ "$stake" -eq "$goal" ]
+   then
+	echo "player won"
+	break
+   fi
+
 done
 
