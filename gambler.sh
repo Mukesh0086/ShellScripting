@@ -47,3 +47,8 @@ do
 
 done
 
+echo "stake =$stake"
+winPercentage=$(((win * 100)/turnsPlayed))
+echo "win percentage is = $winPercentage"
+
+
