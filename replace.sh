@@ -1,2 +1,5 @@
 str="hello <<username>> "
-echo "$str" | sed -e 's/<<username>>/"Mukesh"/g'
+echo "enter name"
+read name
+echo "$name"
+echo "$str" | sed -e "s/<<username>>/$name/g"
